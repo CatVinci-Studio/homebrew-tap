@@ -1,6 +1,6 @@
 cask "levis" do
-  version "0.7.0"
-  sha256 "28735e9ca0db0b0afbe56bf8756f22ad364f5bad80b8e1a38ee2eeaa432344c2"
+  version "0.7.2"
+  sha256 "81cd5df442d2aef2cacfe2af550191980e8dab238a2be233a4ce8f97953cae78"
 
   url "https://github.com/CatVinci-Studio/Levis/releases/download/v#{version}/Levis_#{version}_aarch64.dmg"
   name "Levis"
