@@ -1,6 +1,6 @@
 cask "mneme" do
   version "0.2.0"
-  sha256 "27274b607440632a15ba9ffa5043f8ea72581280000676372193f91b06dda208"
+  sha256 "9a46865b30f3629d3d7f8df8a9f9756c3b4a6f6ac09643d027118aee4bb5f29f"
 
   url "https://github.com/CatVinci-Studio/Mneme/releases/download/v#{version}/Mneme_#{version}_aarch64.dmg"
   name "Mneme"
