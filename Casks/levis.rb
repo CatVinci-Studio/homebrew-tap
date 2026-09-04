@@ -4,7 +4,7 @@ cask "levis" do
 
   url "https://github.com/CatVinci-Studio/Levis/releases/download/v#{version}/Levis_#{version}_aarch64.dmg"
   name "Levis"
-  desc "AI-native WYSIWYG Markdown editor"
+  desc "WYSIWYG Markdown editor"
   homepage "https://github.com/CatVinci-Studio/Levis"
 
   livecheck do
@@ -23,13 +23,4 @@ cask "levis" do
     "~/Library/Saved Application State/com.chengaoshen.levis.savedState",
     "~/Library/WebKit/com.chengaoshen.levis",
   ]
-
-  caveats <<~EOS
-    Levis is not signed with an Apple Developer certificate yet.
-    If macOS blocks the app on first launch, clear the quarantine flag:
-
-      xattr -cr /Applications/Levis.app
-
-    or right-click the app in Finder and choose "Open".
-  EOS
 end
