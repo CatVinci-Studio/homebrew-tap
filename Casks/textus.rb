@@ -1,6 +1,6 @@
 cask "textus" do
-  version "1.0.1"
-  sha256 "83757ba99686df06fa6543462fa060c8fceeee931b98b9b9cbe531c627f3692f"
+  version "1.0.2"
+  sha256 "e08a388ee6f3b68929b0346358a211ff6382ce324c297c7bbbd51be987cffd52"
 
   url "https://github.com/CatVinci-Studio/Textus/releases/download/v#{version}/Textus_#{version}_aarch64.dmg"
   name "Textus"
